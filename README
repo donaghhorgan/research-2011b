@@ -26,4 +26,9 @@ The repository is organised as follows:
     used in the notebooks - you do not need to edit these directly (in fact, 
     you don't have to look at them at all if you don't want to - Mathematica 
     will load them at runtime).
+  * The data.sqlite file is an SQLite database used to store numerical results 
+    generated during the course of writing the paper. To save time reproducing 
+    results, some functions may attempt to look them up in the database. This 
+    functionality can be controlled using the DatabaseLookup option - see the 
+    Network package for more information.
   * Licensing information is contained in COPYING.
